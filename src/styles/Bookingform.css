@@ -1,0 +1,142 @@
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    transition: all 0.3s ease;
+}
+
+.booking-form label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.booking-form input {
+    background-color: #FFF4F1;
+    border: 1px solid #441D81;
+    height: 35px;
+    right: 10px;
+    padding-left: 10px;
+}
+
+.date {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.time {
+    width: 140px;
+    display: flex;
+    flex-direction: column;
+}
+
+.date-time {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.players {
+    display: flex;
+    flex-direction: column;
+}
+
+.lanes {
+    display: flex;
+    flex-direction: column;
+}
+
+.players-lanes {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lanes-info, .players-info {
+    display: block;
+    font-size: 14px;
+    color: red;
+}
+
+.shoe-sizes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    gap: 15px;
+    margin-right: 110px;
+    margin-top: 20px;
+}
+
+.shoe-size {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.input-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+    gap: 25px;
+    margin-right: 10px;
+}
+
+.shoe-size input {
+    background-color: #FFF4F1;
+    border: 1px solid #441D81;
+    height: 35px;
+    width: 60%;
+}
+
+.shoe-size label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.delete-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EC315A;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.add-person {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    background-color: #EC315A;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-left: 100px;
+}
+
+.shoe-sizes p {
+    display: flex;
+    justify-content: center;
+    margin-left: 80px;
+}

@@ -1,0 +1,12 @@
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+li {
+    font-weight: 700;
+    font-size: larger;
+}

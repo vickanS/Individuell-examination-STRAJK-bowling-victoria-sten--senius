@@ -1,0 +1,13 @@
+.shared-button {
+    width: 70%;
+    height: 70px;
+    border: none;
+    border-radius: 3px;
+    background-color: #EC315A;
+    color: white;
+    font-family: 'Work Sans', sans-serif;
+    font-size: larger;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

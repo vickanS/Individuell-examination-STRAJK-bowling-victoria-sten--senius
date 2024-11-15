@@ -1,0 +1,34 @@
+.confirmation-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.confirmation-img img {
+    width: 60px;
+    height: 90px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.confirmation-header h1 {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 52px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.confirmation-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #441D81;
+}
+
+.confirmation-p {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Bebas Neue', sans-serif;
+}
