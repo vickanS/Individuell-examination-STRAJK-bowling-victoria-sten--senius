@@ -34,7 +34,6 @@ const BookingForm: React.FC<BookingFormProps> = ({
     const value = e.target.value;
     setPlayers && setPlayers(value);
 
-    // Kontrollera om antalet spelare är jämnt
     if (parseInt(value) % 2 !== 0 && value !== '') {
       setPlayersError('You can be a minimum of 2 players per lane');
     } else {

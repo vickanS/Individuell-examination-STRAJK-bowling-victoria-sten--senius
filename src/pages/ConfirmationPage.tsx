@@ -29,7 +29,7 @@ const Confirmation = () => {
   const { when, lanes, people, bookingNumber } = state || {};
 
   const handleLoadingScreenNavigation = () => {
-    navigate('/loading');  // Navigera till LoadingScreen
+    navigate('/loading');  
   };
 
   return (

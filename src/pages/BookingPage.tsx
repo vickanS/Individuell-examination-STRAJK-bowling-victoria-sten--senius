@@ -58,7 +58,6 @@ const BookingPage = () => {
           <p>WHEN, WHAT & WHO</p>
         </div>
 
-        {/* BookingForm for "WHEN, WHAT & WHO" */}
         <BookingForm
           section="when-what-who"
           date={date}
